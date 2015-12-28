@@ -15,8 +15,8 @@ npm i ucat -g
 
 ```bash
 Usage:
-    ./ucat [options] <destination-IP> <destination-port>
-    ./ucat [options] -l -p <listening-port>
+    ucat [options] <destination-IP> <destination-port>
+    ucat [options] -l -p <listening-port>
 
 Options:
     -h          Help

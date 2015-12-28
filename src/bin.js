@@ -37,8 +37,8 @@ function help () {
   console.log(
       '\n' +
       'Usage: \n' +
-      '    ./ucat [options] <destination-IP> <destination-port> \n' +
-      '    ./ucat [options] -l -p <listening-port> \n' +
+      '    ucat [options] <destination-IP> <destination-port> \n' +
+      '    ucat [options] -l -p <listening-port> \n' +
       '\n' +
       'Options: \n' +
       '    -h          Help \n' +
