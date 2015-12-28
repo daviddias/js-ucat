@@ -1,0 +1,25 @@
+{
+  "name": "ucat",
+  "version": "0.0.0",
+  "description": "ucat(uTP cat) implementation is JavaScript to be used with Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diasdavid/js-ucat.git"
+  },
+  "keywords": [
+    "uTP",
+    "ucat",
+    "transport",
+    "cli"
+  ],
+  "author": "David Dias <daviddias@ipfs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diasdavid/js-ucat/issues"
+  },
+  "homepage": "https://github.com/diasdavid/js-ucat#readme"
+}
