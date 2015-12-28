@@ -2,7 +2,9 @@
   "name": "ucat",
   "version": "0.0.1",
   "description": "ucat(uTP cat) implementation is JavaScript to be used with Node.js",
-  "main": "src/index.js",
+  "bin": {
+    "jsipfs": "src/bin.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/diasdavid/js-ucat/issues"
   },
-  "homepage": "https://github.com/diasdavid/js-ucat#readme"
+  "homepage": "https://github.com/diasdavid/js-ucat#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "utp": "0.0.9"
+  }
 }
