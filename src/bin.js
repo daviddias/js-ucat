@@ -4,7 +4,7 @@ if (!process.argv[2]) {
 }
 
 var minimist = require('minimist')
-var utp = require('utp')
+var utp = require('utp-native')
 var options = minimist(process.argv.slice(2))
 
 if (options.h) {
@@ -30,7 +30,7 @@ function listen (options) {
     process.stdin.pipe(socket).pipe(process.stdout)
   })
 
-  server.listen(options.p)
+  server.listen(Number(options.p))
 }
 
 function help () {
