@@ -26,6 +26,6 @@
   "homepage": "https://github.com/diasdavid/js-ucat#readme",
   "dependencies": {
     "minimist": "^1.2.0",
-    "utp-native": "0.0.1"
+    "utp-native": "1.2.3"
   }
 }

@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 if (!process.argv[2]) {
   help()
   process.exit(0)
@@ -30,7 +32,9 @@ function listen (options) {
     process.stdin.pipe(socket).pipe(process.stdout)
   })
 
-  server.listen(Number(options.p))
+  var port = options.p ? Number(options.p) : 0
+  server.listen(port)
+  console.log('Listening on port:', server.address().port)
 }
 
 function help () {
