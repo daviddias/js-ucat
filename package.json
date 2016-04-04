@@ -1,6 +1,6 @@
 {
   "name": "ucat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ucat(uTP cat) implementation is JavaScript to be used with Node.js",
   "bin": {
     "ucat": "src/bin.js"
